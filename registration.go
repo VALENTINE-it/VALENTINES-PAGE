@@ -20,4 +20,9 @@ func main() {
 	fmt.Println("Please enter your location:")
 	fmt.Scanln(&location)
 
+	fmt.Println("Please confirm your details:")
+	fmt.Println("Your Name is:", name)
+	fmt.Println("Yor Email Address is:", email)
+	fmt.Println("Your Phone Number is:", number)
+	fmt.Println("Your Location is:", location)
 }
