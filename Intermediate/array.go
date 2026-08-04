@@ -25,4 +25,12 @@ func main() {
 			smallest = numbers[i]
 		}
 	}
+
+	sum := numbers[0] + numbers[1] + numbers[2] + numbers[3]
+
+	average := float64(sum) / 4
+
+	fmt.Println("Largest", largest)
+	fmt.Println("Smallest", smallest)
+	fmt.Println("Average", average)
 }
